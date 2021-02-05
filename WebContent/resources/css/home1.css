@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+.main{
+  position: relative;
+  width: 80%;
+  left: 10%;
+  height: 500px;
+}
+.slider .indicators .indicator-item {
+  background-color: #666666;
+  border: 3px solid #ffffff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.slider .indicators .indicator-item.active {
+  background-color: #ffffff;
+}
+.slider {
+  margin: 0 auto;
+}
+.slider .indicators {
+  bottom: 60px;
+  text-align: left;
+}
+.slides{
+	position:relative;
+  height: 700px;
+  z-index:1;
+}
+.img1{
+  background-color: black;
+  width: 100%;
+  height: 700px;
+}
+.img2{
+  background-color: blue;
+  width: 100%;
+  height: 700px;
+}
+.img3{
+  background-color: brown;
+  width: 100%;
+  height: 700px;
+}
+.img4{
+  background-color: cadetblue;
+  width: 100%;
+  height: 700px;
+}
+.newItems{
+	position: relative;
+	z-index:2;
+	width: 80%;
+	height:1000px;
+	left: 10%;
+}
+.newItems > .ItemsBody > .Items > a {
+	color:black;
+}
+.BestItems{
+	position: relative;
+	z-index:1;
+	width: 80%;
+	height:1150px;
+	left: 10%;
+	top:100px;
+	bottom:0;
+}
+.BestItems > .ItemsBody > .Items > a {
+	color:black;
+}
+.Items{
+	position: relative;
+	width: 25%;
+	height: 450px;
+	float: left;
+	text-align: center;
+}
+.viewMore{
+	margin: 0 auto;
+	float: right;
+	padding:0;
+	font-size: 20px;
+	text-align:center;
+	color:black;
+	width: 120px;
+	height: 40px;
+	background-color:white; 
+	border:1px solid rgb(0, 0, 0);
+	box-shadow: 1px 1px 1px 1px gray;
+}

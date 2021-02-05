@@ -1,0 +1,181 @@
+@charset "UTF-8";
+header {
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+.topber {
+	position: relative;
+	width: 100%;
+	height: 70px;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+	background: black;
+}
+
+.logo {
+	position: absolute;
+	width: 70px;
+	height:70px;
+	left: 5%;
+	float:left;
+	background-color:white; 
+}
+
+.category {
+	position: absolute;
+	left: 10%;
+	z-index: 3;
+	width: 80%;
+}
+
+.category > div {
+	float: left;
+	padding-right: 10px;
+	font-size: 16px;
+	width:150px;
+	height: 20px;
+	overflow: hidden;
+	margin-top: 24px;
+	background: black;
+	text-align: left;
+}
+
+.category>div:hover{
+	animation-name: an1;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes an1 { 
+	0%{
+	position:absolute;
+	height: 50px;
+	width:68%;
+	z-index:3;
+	border-bottom: 3px solid red; 
+	border-left: 3px solid red;
+	border-right: 3px solid red;
+	text-align: center;
+	}
+	100%{
+	position:absolute;
+	height:200px;
+	width:68%;
+	z-index:3;
+	border-bottom: 3px solid red;
+	border-left: 3px solid red;
+	border-right: 3px solid red;
+	text-align: center;
+	}
+}
+.category > div > a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.category>div>a:hover {
+	text-decoration: none;
+	border-bottom: 1px solid white;
+}
+.categorymenu > ul > li{
+	width: 0px;
+	height: 0px;
+}
+.categorymenu > ul > li > a{
+	position:relative;
+	color:white;
+	font-size: 15px;
+	float: left;
+	width: 200px;
+	height: 25px;
+	text-align: left;
+	margin-left: 20px;
+}
+.categorymenu > ul > li > a:hover{
+ 	text-decoration: 1px underline;
+}
+.search {
+	position: absolute;
+	text-align: right;
+	margin-left: 65%;
+	margin-top: 20px;
+	z-index:3;
+}
+
+.searchbody{
+	width: 400px;
+	height: 50px; 
+}
+.search-icon{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-image: url("../images/돋보기.jpg"); 
+}
+.search-input{
+	position: relative;
+	width: 350px;
+	height: 30px;
+	border:none;
+	border-bottom: 1px solid black;
+}
+.search > input:focus{
+	outline: none;
+}
+
+.search>#keyword:focus {
+	outline: none;
+}
+
+.search>button {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	margin-top: 3px;
+	float: left;
+	background: white;
+	border: none;
+	background-image: url("../돋보기.jpg");
+	border: 0.5px solid black;
+	border-radius: 50%;
+}
+
+.search > div > input:focus {
+	outline: none;
+}
+.topmeun{
+	position: relative;
+	width:80%;
+	height:30px;
+	left:10%;
+	margin-bottom: 20px;
+}
+.login{
+	position: absolute;
+	width:100%;
+	margin-top:10px;
+	text-align: right;
+	z-index: 1;
+}
+.login > a {
+	color:black;
+	font-weight:bold;
+	font-size: 15px;
+	float: right;
+}
+.mymeun{
+	position: absolute;
+	margin-top:10px;
+	z-index: 2;
+}
+.mymeun > a{
+	margin-right: 30px;
+	color:black;
+	font-size: 16px;
+}

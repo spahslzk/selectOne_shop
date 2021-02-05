@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+.joinbody{
+	position: absolute;
+	left: 50%;
+	top:5%;
+	transform:translateX(-50%);
+	padding:20px;
+	border:3px solid black;
+	box-shadow: 3px 3px 3px 3px gray;
+}
+.joinmuen{
+	margin-bottom: 20px;
+}
+.jointitle{
+	width: 700px;
+	font-size:30px;
+}
+img{
+	width: 15px;
+	height: 15px;
+}
+input:focus{
+	outline: none;
+}
+.inputbar{
+	width: 400px;
+	height: 30px;
+	font-size:20px;
+	border:none;
+	border-bottom: 2px solid gray; 
+}
+.inputbar:focus{
+	animation-name: inputbar;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+}
+@keyframes inputbar{
+	0%{
+	width:20%;
+	border-bottom: 2px solid gray;
+	}
+	100%{
+	width:400px;
+	border-bottom: 2px solid black;
+	}
+}
+.overlap{
+	position: absolute;
+	left: 450px;
+	margin-top:-30px;
+	width: 130px;
+	height: 30px;
+	background: white;
+	font-size:13px;
+}
+.overlap:hover{
+	animation-name: overlap;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;	
+}
+@keyframes overlap{
+  0%{
+    background-color: #ffffff;
+  }
+  100%{
+    background-color: #000000;
+    color:white;
+  }
+}
+.error,.addrerror{
+	color:red;
+	font-size:12px;
+}
+.addrtitle{
+	font-size:30px;
+}
+.postcodify_address,.postcodify_details,.postcodify_postcode5{
+	width: 400px;
+	height: 30px;
+	font-size:20px;
+	border:none;
+	border-bottom: 2px solid gray;
+}
+.postcodify_address,.postcodify_details,.postcodify_postcode5:focus {
+	animation-name: inputbar;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+}
+@keyframes inputbar{
+	0%{
+	width:20%;
+	border-bottom: 2px solid gray;
+	}
+	100%{
+	width:400px;
+	border-bottom: 2px solid black;
+	}
+}
+.result{
+	margin-top:30px;
+}
+.move{
+	width: 160px;
+	height: 40px;
+	background: white;
+}
+.move:hover{
+	animation-name: overlap;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+}

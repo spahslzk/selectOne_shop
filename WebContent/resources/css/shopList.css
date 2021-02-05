@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:link {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+a:visited {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+a:active {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+.list_main {
+	text-align: center;
+}
+
+.main-reg {
+	height: 550px;
+	margin-left: 60px;
+	margin-top: 70px;
+	display: inline-block;
+	position: relative;
+	box-shadow: 6px 6px 25px #e3e3e3, -6px -6px 25px #ffffff;
+}
+
+.inner-reg1 {
+	margin-top: 20px;
+	margin-left: 25px;
+	margin-bottom: 5px;
+	width: 400px;
+	height: 400px;
+	background-color: #D7EBEF;
+}
+
+.inner-reg2 {
+	width: 300px;
+	height: 100px;
+	position: absolute;
+}
+
+.inner-reg3 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-left: 325px;
+}
+
+#searchResult {
+	padding-top: 30px;
+	line-height: 90px;
+	font-size: 50px;
+	margin: auto;
+}
+.s_code{
+	font-weight: bold;
+	font-size: 20px;
+	float: left;
+	margin-left: 25px;
+}
+.stock_state{
+	color: red;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.gds_name{
+	margin-left: 25px;
+	font-size:20px;
+	text-align:left;
+	width:275px;
+	height:50px;
+	float: left;
+}
+.gds_price{
+	font-size:20px;
+	float: left;
+	margin-left: 25px;
+}
+.review{
+	float: right;
+}
+.favorite {
+	margin-top: 30%;
+}
+
+.favorite-div {
+	display: inline-block;
+	margin-top: 30%;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border-radius: 150px;
+	background: #ffffff;
+	box-shadow: 5px 5px 17px #e6e6e6, -5px -5px 17px #ffffff;
+}
+
+.favorite-div:hover {
+	border-radius: 50%;
+	background: linear-gradient(145deg, #e6e6e6, #ffffff);
+	box-shadow: 10px 10px 26px #f0f0f0, -10px -10px 26px #ffffff;
+}
